@@ -7,10 +7,7 @@
 ## API Walkthrough
 
 * [The Building Blocks](methods.md)
-
-## I Can Haz
-
-* More 
+  * [Domain Events](/methods.md#domain-events)
 
 
 
