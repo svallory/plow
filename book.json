@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "alerts"],
+    "plugins": [ "theme-api", "alerts", "anchorjs"],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
@@ -13,6 +13,12 @@
                     "name": "Typescript"
                 }
             ]
-        }
+        },
+        "anchorjs": {
+      "icon": "#",
+      "placement": "left",
+      "visible": "always",
+      "class": "custom-class another-one"
+    }
     }
 }
