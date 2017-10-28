@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "alerts", "anchorjs"],
+    "plugins": [ "theme-api", "alerts", "anchorjs", "highlightjs"],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
