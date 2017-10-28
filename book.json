@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "alerts", "anchorjs", "highlightjs"],
+    "plugins": [ "theme-api", "alerts", "anchorjs", "highlightjs", "include"],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
@@ -15,10 +15,10 @@
             ]
         },
         "anchorjs": {
-      "icon": "#",
-      "placement": "left",
-      "visible": "always",
-      "class": "custom-class another-one"
-    }
+            "icon": "#",
+            "placement": "left",
+            "visible": "always",
+            "class": "anchor-target"
+        }
     }
 }
