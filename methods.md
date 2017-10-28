@@ -159,7 +159,8 @@ export class TaskRepository extends EventSourcedRepositoryOf<Task, Guid> {
 You can then use the rpository methods `save(aggregate: TAggregate): Promise<DomainEvent[]>` and
 `getById(id: TId): Promise<TAggregate>` to store and retrieve aggregates.
 
-> **NOTE:** Trying to save an aggregates whith no events to be persisted will throw an error.
+> **[info] Note:**
+> Trying to save an aggregates whith no events to be persisted will throw an error.
 
 Plow will propagate the persisted events through the event bus.
 {% endmethod %}
