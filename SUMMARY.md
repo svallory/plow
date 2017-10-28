@@ -6,5 +6,5 @@
 
 ## Methods
 
-* [Defining Methods](methods.md)
+* [The Building Blocks](methods.md)
 
